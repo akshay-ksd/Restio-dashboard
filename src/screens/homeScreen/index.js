@@ -8,7 +8,7 @@ function HomeScreen() {
     };
     return (
         <div className="flex h-screen">
-            <Menu setButton={handleButtonClick}/>
+            // <Menu setButton={handleButtonClick}/>
             {
                 activeButton == 1 && (
                     <DashBoard/>
